@@ -31,6 +31,8 @@ public class WeightedQuickUnion extends UF {
 
 	@Override
 	public void union(int p, int q) {
+		if(!(p < id.length && q < id.length))
+			return; 
 		int i = root(p);
 		int j = root(q);
 		
@@ -57,6 +59,7 @@ public class WeightedQuickUnion extends UF {
 		System.out.print("sizes Arr : ");
 		for(int j:sizes)
 			System.out.print(j+", ");
+		System.out.println();
 	}
 	
 	
