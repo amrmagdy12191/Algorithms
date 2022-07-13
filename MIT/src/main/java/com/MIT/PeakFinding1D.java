@@ -1,5 +1,10 @@
 package com.MIT;
 
+/**
+ * Time Complexity is O(logn) 
+ * @author amrmagdy
+ *
+ */
 public class PeakFinding1D {
 	
 	static enum PeakType{RECURSIVE, ITERATIVE}
@@ -48,7 +53,7 @@ public class PeakFinding1D {
 		else if(PeakType.ITERATIVE.equals(peakType))
 			return findPeakIterativeUtil(array, n);
 		else
-			return 0;
+			return -2;
 	}
 	
 	
