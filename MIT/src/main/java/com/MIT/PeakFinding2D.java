@@ -50,17 +50,16 @@ public class PeakFinding2D {
 		
 	}
 	
-	 public static void main(String[] args)
-	    {
+	 public static void main(String[] args){
 		 PeakFinding2D peakFinding2D = new PeakFinding2D();
 	        int[][] arr = {{ 10, 8, 10, 10, 10 },
 	                       { 14, 13, 12, 12, 8 },
-	                       { 15, 9, 11, 8, 26},
+	                       { 15, 9, 11, 8, 26 },
 	                       { 16, 17, 19, 9, 10 }};
 	         
 	        // Number of Columns
 	        int rows = 4, columns = 4;
 	        System.out.println(peakFinding2D.findMatrixPeak(arr, rows, columns));
-	    }
+	 }
 
 }
