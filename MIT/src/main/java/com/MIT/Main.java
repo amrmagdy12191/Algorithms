@@ -23,7 +23,7 @@ public class Main {
 		matrix[3][2] = 19;
 		matrix[3][3] = 20;
 		
-		PeakFinding peakFinding = new PeakFinding();
-		System.out.println(peakFinding.peakFinding(matrix, 0, 2));
+		PeakFinding2D peakFinding = new PeakFinding2D();
+		System.out.println(peakFinding.findMatrixPeak(matrix, 4, 4));
 	}
 }
