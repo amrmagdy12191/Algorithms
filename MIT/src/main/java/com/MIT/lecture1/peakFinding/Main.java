@@ -1,4 +1,4 @@
-package com.MIT;
+package com.MIT.lecture1.peakFinding;
 
 public class Main {
 	public static void main(String[] args) {

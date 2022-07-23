@@ -1,4 +1,4 @@
-package com.MIT;
+package com.MIT.lecture1.peakFinding;
 
 /**
  * Time Complexity is O(logn) 
