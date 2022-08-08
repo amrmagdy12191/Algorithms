@@ -11,7 +11,7 @@ public class BinarySearch {
 	 * @return
 	 */
 	int find(int[] a, int low, int high, int key) {
-		if(low>high || low < a.length || high> a.length)
+		if(low>high || low < 0 || high> a.length)
 			return -1;
 		
 		int mid = (low+high)/2;
