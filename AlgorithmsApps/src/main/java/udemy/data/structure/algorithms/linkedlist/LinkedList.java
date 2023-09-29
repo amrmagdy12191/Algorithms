@@ -252,6 +252,7 @@ public class LinkedList {
  
         return curr;
 	}
+	
 	//Linked List: 3 -> 8 -> 5 -> 10 -> 2 -> 1 x: 5	
     public void partitionList(int x){
         if(head == null || head.next == null) return;
@@ -323,6 +324,7 @@ public class LinkedList {
         } 
     }
     
+    // removeDuplicates
     public void removeDuplicates() {
     	Node prt1 = null, prt2 = null, dup = null;
     	
@@ -342,6 +344,7 @@ public class LinkedList {
     }
     
     
+    // reverseBetween
     public void reverseBetween(int m, int n) {
     	if(head == null || head.next == null) return;
     	
